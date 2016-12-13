@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Deep Plant</title>
+
+
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="header">
+        <nav>
+            <ul class="nav nav-pills pull-right">
+                <li role="presentation" class="active"><a href="#">Home</a>
+                </li>
+
+            </ul>
+        </nav>
+        <h3 class="text-muted">Deep Plant</h3>
+    </div>
+
+    <div class="jumbotron">
+
+        <form action="/UI" method="post" enctype="multipart/form-data">
+
+            <table>
+                <tr style="padding-bottom: 10px;">
+                    <td>
+
+                    </td>
+                    <td width="10px">
+
+                    </td>
+                    <td align="left">
+
+                        <% {response} %>
+                    </td>
+                </tr>
+
+                <tr style="padding-bottom: 10px">
+                    <td>
+                        Select File:
+                    </td>
+                    <td width="10px">
+
+                    </td>
+                    <td>
+                        <input type="file" name="upload"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+
+                    </td>
+                    <td width="10px">
+
+                    </td>
+                    <td>
+                        <input class="btn btn-lg btn-success" type="submit" value="Upload"/>
+                    </td>
+                </tr>
+
+            </table>
+
+
+        </form>
+
+
+    </div>
+
+
+    <footer class="footer">
+        <p>by - Chetan, Somnath, Mangesh</p>
+    </footer>
+
+</div>
+</body>
+
+</html>
